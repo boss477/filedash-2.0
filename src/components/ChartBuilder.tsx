@@ -94,10 +94,9 @@ export const ChartBuilder: React.FC<ChartBuilderProps> = ({ data, columns, datas
   const combineDatasets = () => {
     if (!datasets || datasets.length === 0) return;
     
-    // Combine all datasets into one, adding a _source identifier to track origin
-    // Note: This adds a _source property to each row which may conflict with existing data properties
+    // Combine all datasets into one
     const combined = datasets.reduce((acc, dataset) => {
-      // Add a source identifier to each row to track which dataset it came from
+      // Add a source identifier to each row
       const labeledData = dataset.data.map(row => ({
         ...row,
         _source: dataset.name

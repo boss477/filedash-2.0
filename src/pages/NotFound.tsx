@@ -1,7 +1,4 @@
-// React Router import for location hook
 import { useLocation } from "react-router-dom";
-
-// React core import
 import { useEffect } from "react";
 
 const NotFound = () => {

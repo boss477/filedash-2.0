@@ -1,16 +1,8 @@
-// React core import
 import * as React from "react"
-
-// Radix UI toast primitive components
 import * as ToastPrimitives from "@radix-ui/react-toast"
-
-// Class variance authority for styling variants
 import { cva, type VariantProps } from "class-variance-authority"
-
-// Icon imports
 import { X } from "lucide-react"
 
-// Utility function import
 import { cn } from "@/lib/utils"
 
 const ToastProvider = ToastPrimitives.Provider

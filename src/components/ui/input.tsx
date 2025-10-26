@@ -1,7 +1,5 @@
-// React core import
 import * as React from "react"
 
-// Utility function import
 import { cn } from "@/lib/utils"
 
 const Input = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(
