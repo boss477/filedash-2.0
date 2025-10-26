@@ -1,6 +1,10 @@
+// React core import
 import * as React from "react"
+
+// Class variance authority for styling variants
 import { cva, type VariantProps } from "class-variance-authority"
 
+// Utility function import
 import { cn } from "@/lib/utils"
 
 const badgeVariants = cva(

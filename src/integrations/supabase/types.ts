@@ -1,3 +1,7 @@
+// JSON type definition for Supabase database interactions
+// Type definitions for Supabase database integration
+// Automatically generated types for database schema and operations
+
 export type Json =
   | string
   | number
@@ -6,6 +10,7 @@ export type Json =
   | { [key: string]: Json | undefined }
   | Json[]
 
+// Database schema type definition
 export type Database = {
   // Allows to automatically instantiate createClient with right options
   // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)

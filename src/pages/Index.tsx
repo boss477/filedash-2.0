@@ -1,11 +1,22 @@
 
+// React core imports
 import React, { useState, useRef } from 'react';
+
+// Icon imports
 import { Upload, BarChart3, MessageSquare, Download, Plus, Settings, Brain, Zap } from 'lucide-react';
+
+// UI component imports
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+
+// Utility imports
 import { toast } from 'sonner';
+
+// Context imports
 import { useTheme } from '@/contexts/ThemeContext';
+
+// Component imports
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { FileUpload } from '@/components/FileUpload';
 import { DataTable } from '@/components/DataTable';
@@ -13,6 +24,8 @@ import { ChartBuilder } from '@/components/ChartBuilder';
 import { Dashboard } from '@/components/Dashboard';
 import { AIChat } from '@/components/AIChat';
 import { DatasetSelector } from '@/components/DatasetSelector';
+
+// Type imports
 import { Dataset } from '@/types/dataset';
 
 const Index = () => {

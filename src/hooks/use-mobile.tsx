@@ -1,7 +1,10 @@
+// React core import
 import * as React from "react"
 
+// Mobile breakpoint constant (768px is typically tablet/mobile boundary)
 const MOBILE_BREAKPOINT = 768
 
+// Custom hook to detect if the current device is mobile
 export function useIsMobile() {
   const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)
 

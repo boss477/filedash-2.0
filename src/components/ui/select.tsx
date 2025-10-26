@@ -1,7 +1,13 @@
+// React core import
 import * as React from "react"
+
+// Radix UI select primitive components
 import * as SelectPrimitive from "@radix-ui/react-select"
+
+// Icon imports
 import { Check, ChevronDown, ChevronUp } from "lucide-react"
 
+// Utility function import
 import { cn } from "@/lib/utils"
 
 const Select = SelectPrimitive.Root

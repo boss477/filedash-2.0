@@ -1,5 +1,7 @@
+// React core import
 import * as React from "react"
 
+// Type imports from toast components
 import type {
   ToastActionElement,
   ToastProps,
