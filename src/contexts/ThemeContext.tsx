@@ -1,6 +1,8 @@
 
 import React, { createContext, useContext, useEffect, useState } from 'react';
 
+// Theme type definition for light/dark mode
+// This context manages the application's theme state
 type Theme = 'light' | 'dark';
 
 interface ThemeContextType {
