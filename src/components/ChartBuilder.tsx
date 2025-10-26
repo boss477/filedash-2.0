@@ -1,13 +1,25 @@
+// React core imports
 import React, { useState, useMemo, useEffect } from 'react';
+
+// Component imports
 import { ErrorBoundary } from '@/components/ErrorBoundary';
+
+// UI component imports
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+
+// Recharts library for data visualization
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, ScatterChart, Scatter } from 'recharts';
+
+// Icon imports
 import { BarChart3, PieChart as PieChartIcon, TrendingUp, Activity, Download, RefreshCw, ZoomIn, ZoomOut, Database } from 'lucide-react';
+
+// Context imports
 import { useTheme } from '@/contexts/ThemeContext';
 
+// Type imports
 import { Dataset } from '@/types/dataset';
 
 interface ChartBuilderProps {

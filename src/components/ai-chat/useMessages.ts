@@ -1,7 +1,14 @@
 
+// React core imports
 import { useState } from 'react';
+
+// Type imports
 import { Message } from './types';
+
+// Constant imports
 import { INITIAL_AI_MESSAGE } from './constants';
+
+// Function imports
 import { processQueryWithGemini } from './gemini-api';
 import { processQuery } from './query-processor';
 

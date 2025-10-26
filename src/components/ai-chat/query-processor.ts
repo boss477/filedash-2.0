@@ -1,6 +1,8 @@
 
+// Type imports
 import { Column } from './types';
 
+// Function to process natural language queries against the dataset
 export const processQuery = (query: string, data: any[], columns: Column[]): string => {
   const lowerQuery = query.toLowerCase();
   

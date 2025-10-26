@@ -1,5 +1,10 @@
+// React core imports
 import React, { Component, ReactNode } from 'react';
+
+// Icon imports
 import { AlertCircle } from 'lucide-react';
+
+// UI component imports
 import { Button } from '@/components/ui/button';
 
 interface ErrorBoundaryProps {

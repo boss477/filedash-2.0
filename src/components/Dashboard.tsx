@@ -1,10 +1,19 @@
+// React core imports
 import React, { useState, useEffect } from 'react';
+
+// Component imports
 import { ErrorBoundary } from '@/components/ErrorBoundary';
+import { ChartBuilder } from '@/components/ChartBuilder';
+
+// UI component imports
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Plus, Settings, Download, Layout, BarChart3, PieChart, TrendingUp, Hash, Save, Trash2 } from 'lucide-react';
-import { ChartBuilder } from '@/components/ChartBuilder';
 import { Badge } from '@/components/ui/badge';
+
+// Icon imports
+import { Plus, Settings, Download, Layout, BarChart3, PieChart, TrendingUp, Hash, Save, Trash2 } from 'lucide-react';
+
+// Context imports
 import { useTheme } from '@/contexts/ThemeContext';
 
 interface DashboardProps {

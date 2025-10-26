@@ -1,6 +1,11 @@
 
+// React core import
 import React from 'react';
+
+// Icon imports
 import { Brain, User } from 'lucide-react';
+
+// Type imports
 import { Message } from './types';
 
 interface MessageListProps {

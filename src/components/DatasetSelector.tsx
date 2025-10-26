@@ -1,8 +1,15 @@
+// React core import
 import React from 'react';
+
+// Icon imports
 import { Database, Trash2, Plus } from 'lucide-react';
+
+// UI component imports
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+
+// Type imports
 import { Dataset } from '@/types/dataset';
 
 interface DatasetSelectorProps {

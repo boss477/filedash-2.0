@@ -1,10 +1,19 @@
+// React core imports
 import React, { useCallback, useState } from 'react';
+
+// Third-party library imports
 import { useDropzone } from 'react-dropzone';
+import Papa from 'papaparse';
+
+// Icon imports
 import { Upload, FileText, AlertCircle, CheckCircle } from 'lucide-react';
+
+// UI component imports
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
-import Papa from 'papaparse';
+
+// Utility imports
 import { toast } from 'sonner';
 
 interface FileUploadProps {

@@ -1,5 +1,5 @@
 
-
+// API function to process queries with Gemini AI
 export const processQueryWithGemini = async (query: string, data: any[], columns: any[]): Promise<string> => {
   // Check if API key is configured
   let GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "";

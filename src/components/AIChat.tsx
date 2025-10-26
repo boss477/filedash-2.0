@@ -1,10 +1,17 @@
 
+// React core imports
 import React, { useState, useRef, useEffect } from 'react';
+
+// UI component imports
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+
+// Icon imports
 import { Send, Brain, Sparkles, Key, Moon, Sun, AlertTriangle } from 'lucide-react';
+
+// Local component imports
 import { AIChatProps } from './ai-chat/types';
 import { ApiKeyTest } from './ai-chat/ApiKeyTest';
 import { useMessages } from './ai-chat/useMessages';

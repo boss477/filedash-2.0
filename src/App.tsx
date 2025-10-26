@@ -1,10 +1,19 @@
 
+// UI component imports
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
+
+// React Query for data fetching
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+// React Router for navigation
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// Theme context provider
 import { ThemeProvider } from "@/contexts/ThemeContext";
+
+// Page components
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 

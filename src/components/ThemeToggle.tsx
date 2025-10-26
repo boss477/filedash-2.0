@@ -1,7 +1,14 @@
 
+// React core import
 import React from 'react';
+
+// Icon imports
 import { Moon, Sun } from 'lucide-react';
+
+// UI component imports
 import { Button } from '@/components/ui/button';
+
+// Context imports
 import { useTheme } from '@/contexts/ThemeContext';
 
 export const ThemeToggle: React.FC = () => {

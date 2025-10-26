@@ -1,7 +1,13 @@
+// React core import
 import * as React from "react"
+
+// Radix UI import for component composition
 import { Slot } from "@radix-ui/react-slot"
+
+// Class variance authority for styling variants
 import { cva, type VariantProps } from "class-variance-authority"
 
+// Utility function import
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(

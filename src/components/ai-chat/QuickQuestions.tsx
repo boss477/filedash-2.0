@@ -1,6 +1,11 @@
 
+// React core import
 import React from 'react';
+
+// UI component imports
 import { Button } from '@/components/ui/button';
+
+// Icon imports
 import { Lightbulb } from 'lucide-react';
 
 interface QuickQuestionsProps {

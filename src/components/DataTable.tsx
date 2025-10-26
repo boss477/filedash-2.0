@@ -1,9 +1,16 @@
+// React core imports
 import React, { useState, useMemo } from 'react';
+
+// UI component imports
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Search, Download, Filter, Plus } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+
+// Icon imports
+import { Search, Download, Filter, Plus } from 'lucide-react';
+
+// Utility imports
 import { toast } from 'sonner';
 
 interface DataTableProps {
